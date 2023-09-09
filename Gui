@@ -1,5 +1,8 @@
 if game.PlaceId==7258239416 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/Viet-Nam-Piece/main/Beta'))()  
-elseif not game.PlaceId==7258239416 then
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/TestHub/main/Universal'))()
 end
+
+
+
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/TestHub/main/Universal'))()
