@@ -4,6 +4,6 @@ elseif game.PlaceId==662417684 then --LuckyBlockBattleGround
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/LuckyBlockBattleground/main/HttVeg'))()
 elseif game.PlaceId==14281307196 then --AUT:Old Universe 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ginchao/OUT-OLD-UNIVERSE/main/UNIVERSE%20OLD" ,true))()
-elseif game.PlaceId==nil then
+elseif game.PlaceId~=nil then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ginchao/TestHub/main/Universal'))() --Universal
 end
